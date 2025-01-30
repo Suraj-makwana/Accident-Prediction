@@ -30,8 +30,8 @@ def pred(Day_of_week, Age_band_of_driver, Sex_of_driver, Educational_level, Vehi
 
 # create streamlit app==================================================================================================
 # load pipe and image
-pipe = pickle.load(open('/home/user/Desktop/IIH_GLOBAL_ALL_PRACTICE_POINTS/Machine Learning Topics/Accident Prediction/pkls/10 ACCIDENT_PREDICTION.pkl','rb'))
-img = Image.open('/home/user/Desktop/IIH_GLOBAL_ALL_PRACTICE_POINTS/Machine Learning Topics/Accident Prediction/images/10 pipe img.png')
+pipe = pickle.load(open('pkls/10 ACCIDENT_PREDICTION.pkl','rb'))
+img = Image.open('images/10 pipe img.png')
 
 
 
