@@ -37,7 +37,7 @@ img = Image.open('images/10 pipe img.png')
 
 st.title('Accident Severity Prediction With Sklearn Pipeline...')
 # Display the image
-st.image(img, use_column_width=True)
+st.image(img, use_container_width=True)
 
 
 # Sidebar for user inputs
